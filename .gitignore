@@ -3,5 +3,4 @@ package-lock.json
 /.idea
 .jshintrc
 
-# Project exclude paths
-/dist/
+
