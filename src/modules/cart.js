@@ -88,7 +88,7 @@ const cart = () => {
 		}
 	});
 
-	sendGoodsBtn.addEventListener('click', event => {
+	sendGoodsBtn.addEventListener('click', () => {
 			const cartArr = localStorage.getItem('cartArr') ?
 				JSON.parse(localStorage.getItem('cartArr')) : [];
 
